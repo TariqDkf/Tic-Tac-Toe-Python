@@ -1,6 +1,6 @@
 def isInteger(value):
     try:
-        int(value)
-        return True
-    except ValueError:
+        value = int(value)
+        return value
+    except:
         return False
